@@ -1,0 +1,62 @@
+html {
+}
+
+img.centered {
+    display: block;
+    margin: auto;
+}
+
+header {
+    padding: 4rem 0;
+    background-color: #329996;
+    color: white;
+}
+
+#content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#content section {
+    margin-bottom: 3rem;
+}
+
+#content h1 {
+    text-align: center;
+    color: #329996;
+    border-bottom: 1px solid #329996;
+}
+
+.intro {
+    font-weight: bolder;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 0;
+}
+
+.circle-icon {
+    height: 4rem;
+    width: 4rem;
+    margin: 2rem auto 1rem;
+    border: 2px solid #329996;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 4rem;
+    color: #329996;
+}
+
+#for-who {
+    padding: 2rem;
+    background-color: #eee;
+
+}
+
+#for-who .card {
+    background-color: white;
+    height: 4rem;
+}
+
+#for-who .card-deck {
+    margin-bottom: 1rem;
+}

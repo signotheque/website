@@ -5,122 +5,178 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <title>LSF Libre</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div class="container-fluid header text-center">
+    <header class="container-fluid text-center">
         <h1>LSF Libre</h1>
         <h2>Une bibliothèque de signes universelle, vectorielle, et libre</h2>
-    </div>
+    </header>
 
-    <div class="container content">
+    <div id="content">
         <section id="why" class="sub-part">
+            <div class="container">
+                <h1>Pourquoi ?</h1>
+                <p class="intro">Il existe des milliers de sites Web, dictionnaires et bibliothèques en ligne, dédiés aux langues des signes. Pourquoi vouloir recommencer ?</p>
 
-            <h1>Pourquoi ?</h1>
-            <p>Il existe des milliers de sites Web, dictionnaires et bibliothèques en ligne, dédiés aux langues des signes. Pourquoi vouloir recommencer ?</p>
+                <div class="row">
 
-            <div class="row">
-
-                <div class="col-md-4">
-                    <h2>License libre</h2>
-                    <p>Les licences d'utilisation des contenus disponibles ne sont pas toujours ouvertes (copyright, utilisation impossible hors site, ...).</p>
-                    <p>Il est donc très difficile de s'approprier les contenus, et surtout de les améliorer ou de contribuer.</p>
-                    <p>Nous souhaitons construire une bibliothèque de signes qui soit dans le domaine public (Creative Commons CC-0).</p>
-                </div>
-
-                <div class="col-md-4">
-                    <h2>Universelle</h2>
-                    <p>La bibliothèque sera internationale. Chaque lettre, chiffre ou mot pourra être décliné dans différentes langues, selon les envies des contributeurs. Pour commencer, nous nous focaliserons probablement sur la langue des signes française.</p>
-                    <p>Contrairement aux photos, les illustrations produites ne seront pas obligatoirement à l'image des contributeurs. Elles feront preuve de diversité (enfants, femmes, hommes, multiethnique ...) et le plus schématique possible (visages, bustes, vêtements...).</p>
-                </div>
-
-                <div class="col-md-4">
-                    <h2>Collaborative</h2>
-                    <p>Chaque visuel pourra être recherché par mot clé et téléchargé par langue sur une page Web minimaliste.</p>
-                    <p>Tout le monde pourra s'approprier, corriger, améliorer et ajouter des signes. La bibliothèque sera donc construite avec l'aide de contributeurs bénévoles. Nous encadrerons le projet avec la même philosophie que les logiciels libres!</p>
-                    <p>La licence libre permettra aussi de publier le contenu de la bibliothèque sur plusieurs plateformes existantes (ex. <a href="https://thenounproject.com/term/sign-language/" title="thenounproject">thenounproject</a>, <a href="https://openclipart.org/search/?query=sign+language" title="openclipart">openclipart</a>).</p>
-                </div>
-
-                <div class="col-md-12">
-                    <h2>Vectorielle</h2>
-                    <p>Les formats des contenus disponibles sont variés, mais la plupart sont des vidéos, photos animées, ou dessins numérisés, ce qui limite les usages. Notamment à cause de la présence d'un fond obscur, ou d'un manque de résolution ou de netteté.</p>
-                    <p>Le format vectoriel présente de nombreux avantages:</p>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <ul>
-                                <li>
-                                    <strong>Redimensionnable</strong> (étirable à l'infini sans perte)
-                                </li>
-                                <li>
-                                    <strong>Assemblage</strong> (manipulation d'objets ou groupes d'objets plutôt que de pixels — bras, main, …)
-                                </li>
-                                <li>
-                                    <strong>Déclinable</strong> (appropriation du contenu facilitée — couleurs, proportions, …)
-                                </li>
-                                <li>
-                                    <strong>Multi-supports</strong> (impression papier, sites Web, applications, ...)
-                                </li>
-                                <li>
-                                    <strong>Neutre et anonyme</strong> (celui ou celle qui contribue n'expose pas son visage)
-                                </li>
-                                <li>
-                                    <strong>Qualité constante</strong> (pas de notion de qualité de la caméra ou de l'appareil photo)
-                                </li>
-                            </ul>
+                    <div class="col-md-4">
+                        <div class="circle-icon">
+                            <i class="fa fa-creative-commons"></i>
                         </div>
-                        <div class="col-md-6">
-                            <img src="https://camo.githubusercontent.com/f2070c914e882669d72d184fc256219dcbad011b/687474703a2f2f696d672e3933336b2e6f72672f696d616765732f766563746f722e706e67" alt="Copie d'écran d'Inscape">
-                            <p>De plus, le <a href="https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics" title="Scalable_Vector_Graphics Wikipedia's page">format vectoriel standard SVG</a> est supporté par de nombreux logiciels (et navigateurs Web).</p>
+                        <h2 class="text-center">License libre</h2>
+                        <p>Les licences d'utilisation des contenus disponibles ne sont pas toujours ouvertes (copyright, utilisation impossible hors site, ...).</p>
+                        <p>Il est donc très difficile de s'approprier les contenus, et surtout de les améliorer ou de contribuer.</p>
+                        <p>Nous souhaitons construire une bibliothèque de signes qui soit dans le domaine public (Creative Commons CC-0).</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="circle-icon">
+                            <i class="fa fa-globe"></i>
+                        </div>
+                        <h2 class="text-center">Universelle</h2>
+                        <p>La bibliothèque sera internationale. Chaque lettre, chiffre ou mot pourra être décliné dans différentes langues, selon les envies des contributeurs. Pour commencer, nous nous focaliserons probablement sur la langue des signes française.</p>
+                        <p>Contrairement aux photos, les illustrations produites ne seront pas obligatoirement à l'image des contributeurs. Elles feront preuve de diversité (enfants, femmes, hommes, multiethnique ...) et le plus schématique possible (visages, bustes, vêtements...).</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="circle-icon">
+                            <i class="fa fa-code-fork"></i>
+                        </div>
+                        <h2 class="text-center">Collaborative</h2>
+                        <p>Chaque visuel pourra être recherché par mot clé et téléchargé par langue sur une page Web minimaliste.</p>
+                        <p>Tout le monde pourra s'approprier, corriger, améliorer et ajouter des signes. La bibliothèque sera donc construite avec l'aide de contributeurs bénévoles. Nous encadrerons le projet avec la même philosophie que les logiciels libres!</p>
+                        <p>La licence libre permettra aussi de publier le contenu de la bibliothèque sur plusieurs plateformes existantes (ex. <a href="https://thenounproject.com/term/sign-language/" title="thenounproject">thenounproject</a>, <a href="https://openclipart.org/search/?query=sign+language" title="openclipart">openclipart</a>).</p>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="circle-icon">
+                            <i class="fa fa-object-ungroup"></i>
+                        </div>
+                        <h2 class="text-center">Vectorielle</h2>
+                        <p>Les formats des contenus disponibles sont variés, mais la plupart sont des vidéos, photos animées, ou dessins numérisés, ce qui limite les usages. Notamment à cause de la présence d'un fond obscur, ou d'un manque de résolution ou de netteté.</p>
+                        <p>Le format vectoriel présente de nombreux avantages:</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>
+                                        <strong>Redimensionnable</strong> (étirable à l'infini sans perte)
+                                    </li>
+                                    <li>
+                                        <strong>Assemblage</strong> (manipulation d'objets ou groupes d'objets plutôt que de pixels — bras, main, …)
+                                    </li>
+                                    <li>
+                                        <strong>Déclinable</strong> (appropriation du contenu facilitée — couleurs, proportions, …)
+                                    </li>
+                                    <li>
+                                        <strong>Multi-supports</strong> (impression papier, sites Web, applications, ...)
+                                    </li>
+                                    <li>
+                                        <strong>Neutre et anonyme</strong> (celui ou celle qui contribue n'expose pas son visage)
+                                    </li>
+                                    <li>
+                                        <strong>Qualité constante</strong> (pas de notion de qualité de la caméra ou de l'appareil photo)
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="https://camo.githubusercontent.com/f2070c914e882669d72d184fc256219dcbad011b/687474703a2f2f696d672e3933336b2e6f72672f696d616765732f766563746f722e706e67" alt="Copie d'écran d'Inscape">
+                                <p>De plus, le <a href="https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics" title="Scalable_Vector_Graphics Wikipedia's page">format vectoriel standard SVG</a> est supporté par de nombreux logiciels (et navigateurs Web).</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
 
         </section>
         <section id="for-who" class="sub-part">
-            <h1>Pour Qui ?</h1>
-            <p>Le format, la license d'utilisation et le côté schématique des signes ouvre énormément de possibilités quand aux usages.</p>
-            <img src="https://camo.githubusercontent.com/b9974370771039945a83c1e702335daee49e98c4/687474703a2f2f696d672e3933336b2e6f72672f696d616765732f6d756c74696d656469612e706e67" alt="Illustration du multi-support">
-            <p>Nous avons cependant déjà identifiés ces besoins concrets, auprès d'acteurs et d'associations du monde des sourds:
-                <ul>
-                    <li>Supports d’<strong>apprentissage et d’enseignement des langues signées</strong> (pédagogie à l'école, jeux, cartes-mémo, coloriages, …)</li>
-                    <li><strong>Affichettes</strong> accessibilité (éléments de conversation au bar, orientation dans un festival ou évènement)</li>
-                    <li>Créer un <strong>jeu de cartes à imprimer</strong> soi-même (variante de Time's Up, cohésion entendants-sourds)</li>
-                    <li>Activité dans le jeu éducatif open source <strong>GCompris</strong> (chiffres, lettres, mots...)</li>
-                    <li><strong>Accessibilité</strong> sur les sites Web (épeler automatiquement, claviers virtuels, illustrations, menus, résumés de page…)</li>
-                    <li><strong>Mémos</strong>, permettant aux interprêtes de pouvoir noter un signe pour ne pas l'oublier</li>
-                </ul>
-            </p>
+            <div class="container">
+                <h1>Pour Qui ?</h1>
+                <p class="intro">Le format, la license d'utilisation et le côté schématique des signes ouvre énormément de possibilités quand aux usages.</p>
+                <img class="centered" src="https://camo.githubusercontent.com/b9974370771039945a83c1e702335daee49e98c4/687474703a2f2f696d672e3933336b2e6f72672f696d616765732f6d756c74696d656469612e706e67" alt="Illustration du multi-support">
+                <p class="intro">Nous avons cependant déjà identifiés ces besoins concrets, auprès d'acteurs et d'associations du monde des sourds
+                </p>
+                <div class="row card-deck-wrapper">
+                    <div class="card-deck">
+                        <div class="card text-center">
+                            <div class="card-block">
+                            <h4 class="card-title">Enseignement</h4>
+                            <p class="card-text">Supports d’<strong>apprentissage et d’enseignement des langues signées</strong> (pédagogie à l'école, jeux, cartes-mémo, coloriages, …)</p>
+                            </div>
+                        </div>
+                        <div class="card text-center">
+                            <div class="card-block">
+                            <h4 class="card-title">Accessibilité</h4>
+                            <p class="card-text"><strong>Affichettes</strong> accessibilité (éléments de conversation au bar, orientation dans un festival ou évènement)</p>
+                            </div>
+                        </div>
+                        <div class="card text-center">
+                            <div class="card-block">
+                            <h4 class="card-title">Jeux physiques</h4>
+                            <p class="card-text">Créer un <strong>jeu de cartes à imprimer</strong> soi-même (variante de Time's Up, cohésion entendants-sourds)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-deck">
+                        <div class="card text-center">
+                            <div class="card-block">
+                            <h4 class="card-title">Jeux numériques</h4>
+                            <p class="card-text">Activité dans le jeu éducatif open source <strong>GCompris</strong> (chiffres, lettres, mots...)</p>
+                            </div>
+                        </div>
+                        <div class="card text-center">
+                            <div class="card-block">
+                            <h4 class="card-title">Accessibilité web</h4>
+                            <p class="card-text"><strong>Accessibilité</strong> sur les sites Web (épeler automatiquement, claviers virtuels, illustrations, menus, résumés de page…)</p>
+                            </div>
+                        </div>
+                        <div class="card text-center">
+                            <div class="card-block">
+                            <h4 class="card-title">Mémos</h4>
+                            <p class="card-text"><strong>Mémos</strong>, permettant aux interprêtes de pouvoir noter un signe pour ne pas l'oublier</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="how" class="sub-part">
-            <h1>Comment ?</h1>
-            <p>Évidemment, nous sommes conscients de la quantité de travail à fournir pour construire une bibliothèque avec des milliers de mots.</p>
-            <p>C'est pourquoi nous souhaitons nous appuyer sur une série d'éléments réutilisables pour accélérer la création des signes.</p>
+            <div class="container">
+                <h1>Comment ?</h1>
+                <div class="intro">
+                    <p>Évidemment, nous sommes conscients de la quantité de travail à fournir pour construire une bibliothèque avec des milliers de mots.</p>
+                    <p>C'est pourquoi nous souhaitons nous appuyer sur une série d'éléments réutilisables pour accélérer la création des signes.</p>
+                </div>
 
-            <h2>Éléments à assembler</h2>
-            <p>Les différents éléments réutilisables seront regroupés dans des fichiers, indépendamment des langues.</p><p>Pour créer un nouveau mot, un simple copier-coller des éléments suffira pour démarrer!</p>
-            <img src="https://camo.githubusercontent.com/d3578fdec1803537a3fb51632270b96e048409d8/687474703a2f2f696d672e3933336b2e6f72672f696d616765732f617373656d626c652e6a7067" alt="Assemblage des éléments du corps en svg">
-            <p>Avec quelques dizaines d'éléments, il est possible de commencer à décrire un vocabulaire, le logiciel de dessin permettant de tourner, inverser ou étirer.</p>
-            <p>À terme, nous estimons qu'il faudra une centaine de «mains» pour permettre de contribuer des nouveaux mots sans devoir retoucher les éléments.</p>
-            <p>Cette approche permet également de garantir un minimum d'homogénéité graphique au sein de la bibliothèque.</p>
+                <h2>Éléments à assembler</h2>
+                <p>Les différents éléments réutilisables seront regroupés dans des fichiers, indépendamment des langues.</p><p>Pour créer un nouveau mot, un simple copier-coller des éléments suffira pour démarrer!</p>
+                <img src="https://camo.githubusercontent.com/d3578fdec1803537a3fb51632270b96e048409d8/687474703a2f2f696d672e3933336b2e6f72672f696d616765732f617373656d626c652e6a7067" alt="Assemblage des éléments du corps en svg">
+                <p>Avec quelques dizaines d'éléments, il est possible de commencer à décrire un vocabulaire, le logiciel de dessin permettant de tourner, inverser ou étirer.</p>
+                <p>À terme, nous estimons qu'il faudra une centaine de «mains» pour permettre de contribuer des nouveaux mots sans devoir retoucher les éléments.</p>
+                <p>Cette approche permet également de garantir un minimum d'homogénéité graphique au sein de la bibliothèque.</p>
 
-            <h2>Représenter le mouvement</h2>
-            <p>Le logiciel de dessin permet de controler l'aspect des contours des objets (pointillés, opacité, etc.), ce qui permet de représenter le mouvement de manière universelle, à la manière des bandes dessinées.</p>
-            <img src="https://camo.githubusercontent.com/b9d237d1ef880504af9e6941874dbc906c58933f/687474703a2f2f696d672e3933336b2e6f72672f696d616765732f6d6f76656d657375732e706e67" alt ="Représentation du mouvement avec des flèches">
-            <p>Une bibliothèque de simples flèches pourra rendre explicites les mouvements amples.</p>
-            <img src="https://camo.githubusercontent.com/579f7c95e435900ccdf9ddd65991350a8faa629d/687474703a2f2f696d672e3933336b2e6f72672f696d616765732f6361707475726973692e706e67" alt="lexique, plateforme, iconicité">
-            <span>(exemple non vectoriel du pôle de recherche <a href="http://www.irit.fr/presto/lexique.html" title="PRESTO website lexique page">PRESTO</a>)</span>
+                <h2>Représenter le mouvement</h2>
+                <p>Le logiciel de dessin permet de controler l'aspect des contours des objets (pointillés, opacité, etc.), ce qui permet de représenter le mouvement de manière universelle, à la manière des bandes dessinées.</p>
+                <img src="https://camo.githubusercontent.com/b9d237d1ef880504af9e6941874dbc906c58933f/687474703a2f2f696d672e3933336b2e6f72672f696d616765732f6d6f76656d657375732e706e67" alt ="Représentation du mouvement avec des flèches">
+                <p>Une bibliothèque de simples flèches pourra rendre explicites les mouvements amples.</p>
+                <img src="https://camo.githubusercontent.com/579f7c95e435900ccdf9ddd65991350a8faa629d/687474703a2f2f696d672e3933336b2e6f72672f696d616765732f6361707475726973692e706e67" alt="lexique, plateforme, iconicité">
+                <span>(exemple non vectoriel du pôle de recherche <a href="http://www.irit.fr/presto/lexique.html" title="PRESTO website lexique page">PRESTO</a>)</span>
 
-            <h2>Plateforme collaborative</h2>
-            <p>Nous souhaitons commencer avec une plateforme comme <a href="https://fr.wikipedia.org/wiki/GitHub" title="Github wikipedia page">Github</a>, pour construire et enrichir la bibliothèque à plusieurs.</p>
-            <p>Dans un premier temps, les fichiers seront téléchargés, édités sur le poste de travail avec un logiciel comme <a href="https://inkscape.org/" title="Inskscape website">Inkscape</a>, et les résultats renvoyés sur la plateforme. Nous mettrons à profit notre expérience dans le monde des logiciels libres pour animer et gérer les contributions.</p>
-            <p>À terme, nous pourrons envisager d'avoir une application Web, avec un véritable éditeur en ligne (comme les pour les <a href="http://faceyourmanga.com/" title="Face Your Manga website">avatars mangas</a>...)</p>
+                <h2>Plateforme collaborative</h2>
+                <p>Nous souhaitons commencer avec une plateforme comme <a href="https://fr.wikipedia.org/wiki/GitHub" title="Github wikipedia page">Github</a>, pour construire et enrichir la bibliothèque à plusieurs.</p>
+                <p>Dans un premier temps, les fichiers seront téléchargés, édités sur le poste de travail avec un logiciel comme <a href="https://inkscape.org/" title="Inskscape website">Inkscape</a>, et les résultats renvoyés sur la plateforme. Nous mettrons à profit notre expérience dans le monde des logiciels libres pour animer et gérer les contributions.</p>
+                <p>À terme, nous pourrons envisager d'avoir une application Web, avec un véritable éditeur en ligne (comme les pour les <a href="http://faceyourmanga.com/" title="Face Your Manga website">avatars mangas</a>...)</p>
+            </div>
         </section>
     </div>
 
-    <div class="container-fluid footer">
+    <footer class="container-fluid">
+    </footer>
 
-    </div>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
 </body>
 </html>
