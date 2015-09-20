@@ -3,7 +3,6 @@ html {
 
 img {
     max-width: 100%;
-    max-height: 100%;
 }
 
 img.centered {
@@ -67,4 +66,18 @@ header {
 
 #how .container {
     margin-bottom: 2rem;
+}
+
+#who-are-we .card {
+    border-left: 4px solid #329996;
+    margin-bottom: 2rem;
+}
+
+#who-are-we .card-header {
+    overflow: hidden;
+}
+
+#who-are-we .card .avatar {
+    float: left;
+    margin-right: 1rem;
 }
