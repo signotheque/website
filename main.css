@@ -14,6 +14,10 @@ header {
     margin: 0;
 }
 
+.crossed {
+    text-decoration: line-through;
+}
+
 nav {
     background: white;
     width: 100%;
