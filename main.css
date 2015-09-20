@@ -1,6 +1,11 @@
 html {
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 img.centered {
     display: block;
     margin: auto;
@@ -54,9 +59,12 @@ header {
 
 #for-who .card {
     background-color: white;
-    height: 4rem;
 }
 
 #for-who .card-deck {
     margin-bottom: 1rem;
+}
+
+#how .container {
+    margin-bottom: 2rem;
 }
